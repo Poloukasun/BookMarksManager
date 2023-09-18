@@ -1,6 +1,6 @@
 class Bookmarks_API {
-    // static API_URL() { return "https://gossamer-receptive-relative.glitch.me/Contacts%20API/API/bookmarks.json" };
-    static API_URL() { return "http://localhost:5000/api/bookmarks" };
+    static API_URL() { return "https://telling-chartreuse-conga.glitch.me/api/bookmarks" };
+    // static API_URL() { return "http://localhost:5000/api/bookmarks" };
     static async Get(id = null) {
         return new Promise(resolve => {
             $.ajax({
